@@ -84,7 +84,7 @@ for i in range(100):
   orign_img = cv2.cvtColor(orign_img, cv2.COLOR_RGB2BGR)
 
   ! python3 scripts/extract-keypoints.py \
-  --filename /content/drive/MyDrive/Colab_Notebooks/capstone/AIM/image/foul6_thigh/{img_file_name} \
+  --filename /content/drive/MyDrive/Colab_Notebooks/capstone/AIM/image/foul6_thigh/{img_file_name} \      #경로 맞게 바꿔주기
   --format json \
   --hrnet_weights weights/pose_hrnet_w48_384x288.pth \
   --json_output_filename {output_file_name}
